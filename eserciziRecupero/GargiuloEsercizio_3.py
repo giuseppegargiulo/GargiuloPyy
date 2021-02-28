@@ -1,0 +1,6 @@
+x=input(str(" inserire il proprio nome: "))
+y=input(str(" inserire il proprio cognome: "))
+i=len(x)
+o=len(y)
+print("La lunghezza della prima parola é:",i)
+print("La lunghezza della seconda parola é:",o)
