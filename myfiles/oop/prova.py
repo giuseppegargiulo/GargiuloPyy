@@ -1,2 +1,3 @@
-a="sassari"
-a.count("a","s","c")
+f=open("dati.txt")
+if "ciao" in f:
+    print ("si")
