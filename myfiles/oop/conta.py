@@ -5,10 +5,10 @@ count -> contiene il numero totale di ripetizioni
 nCaratteri -> contiene il numero di caratteri che si ripetono
 '''
 
-word = list("giraffa")  # in ruzzle conterrà l'attributo di istanza che contiene la lista di caratteri
+word = list("giraffaaa")  # in ruzzle conterrà l'attributo di istanza che contiene la lista di caratteri
 
 carattere = {}
-
+caratteriripetuti= {}
 nCaratteri = 0
 count = 0
 
@@ -26,3 +26,7 @@ for i in carattere:
 
 print(count)
 print(nCaratteri)
+print(carattere)
+for i in carattere:
+    if carattere[i]>1:
+        caratteriripetuti=carattere[str(i)] += 1
