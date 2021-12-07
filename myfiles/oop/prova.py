@@ -1,3 +1,3 @@
-f=open("dati.txt")
+f=open("")
 if "ciao" in f:
     print ("si")

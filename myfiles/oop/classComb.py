@@ -1,4 +1,7 @@
 #IMPOSTAMNDO IL PROGRAMMA
+from _typeshed import Self
+
+
 def factorial(n):
     fact = 1
     for num in range(2, n + 1):
@@ -55,6 +58,15 @@ class calcComb: #costruzione classe
         while f>0:
             print(self.stringalist.random(0,100))
             f-=1
+    
+    def permutazioniConRipetizioni(self,k,r,n):
+        if k+r<=n:
+            return (factorial(n)/factorial(k))
+    
+    def contatoreLettere():
+        z={}
+        for i in z:
+
 
 
             
@@ -71,5 +83,4 @@ print("il numero di disposizioni con ripetizioni è:",galileoGalilei.disposizion
 print ("il numero di disposizioni semplici è:",galileoGalilei.disposizioniSemplici(2))
 print ("il risultato della permutazione è:",galileoGalilei.permutazioniSemplici())
 galileoGalilei.disposizioniInterfaccia(3)
-
-
+print ("il risultato della permutazione con ripetizione è:",galileoGalilei.permutazioniSemplici())

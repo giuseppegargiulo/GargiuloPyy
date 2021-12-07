@@ -29,4 +29,4 @@ print(nCaratteri)
 print(carattere)
 for i in carattere:
     if carattere[i]>1:
-        caratteriripetuti=carattere[str(i)] += 1
+        
